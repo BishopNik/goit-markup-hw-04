@@ -18,16 +18,58 @@ body {
   background-color: var(--color-white);
   color: #434455;
   font-family: var(--main-font);
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
 }
 
 /* outline: 1px solid red; */
 
 /* dop class  */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .list {
   list-style: none;
@@ -76,7 +118,6 @@ img {
 .container-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .nav-item {
@@ -142,10 +183,6 @@ img {
 }
 
 /* Наше преимущество / Перечень работ / Услуги */
-
-.tech {
-  padding: 120px 0;
-}
 
 .service {
   padding-top: 0;
@@ -240,7 +277,7 @@ img {
 .banner {
   background-color: var(--text-color);
   padding: 188px 0;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   margin: 0 auto;
 }
@@ -254,7 +291,8 @@ img {
   color: var(--color-white);
   max-width: 496px;
   height: 120px;
-  margin: 0 auto 64px auto;
+  margin: 0 auto 48px auto;
+  letter-spacing: 0.02em;
 }
 
 .banner-but {
@@ -282,7 +320,7 @@ img {
 /* Наша команда */
 
 .team {
-  padding: 120px 0;
+  background-color: var(--color-sec-font);
 }
 
 .container-teem {
@@ -295,14 +333,10 @@ img {
 
 .teem-li {
   background-color: var(--color-white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   width: 264px;
-  height: 380px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .teem-p,
@@ -316,7 +350,6 @@ img {
 
 .team-person {
   padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* Логотип */
@@ -346,7 +379,6 @@ img {
   border: 0;
   margin: 0;
   max-width: 264px;
-  height: 72px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
