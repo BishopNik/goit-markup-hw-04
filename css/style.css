@@ -10,6 +10,7 @@ html {
   --color-main-font: #434455;
   --color-sec-font: #f4f4fd;
   --color-butt: #e7e9fc;
+  --color-social: #4d5ae5;
   --main-font: 'Roboto', sans-serif;
   --sec-font: 'Raleway', sans-serif;
 }
@@ -253,7 +254,8 @@ a {
 
 .tech-t,
 .service-h,
-.teem-h {
+.teem-h,
+.customers-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -265,7 +267,6 @@ a {
 /* Заказ */
 
 .container-banner {
-  position: center;
   text-align: center;
 }
 
@@ -276,6 +277,11 @@ a {
 
 .banner {
   background-color: var(--text-color);
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/background/main-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 188px 0;
   max-width: 1440px;
   height: 600px;
@@ -333,8 +339,8 @@ a {
 
 .teem-li {
   background-color: var(--color-white);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   width: 264px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -352,6 +358,23 @@ a {
   padding: 32px 16px;
 }
 
+/* Клиенты */
+
+.customers {
+  margin: 120px 0;
+}
+
+.customers-logo {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.customers-title {
+  margin-bottom: 72px;
+}
+
 /* Логотип */
 
 .logo {
@@ -364,7 +387,6 @@ a {
   color: var(--butt-color);
   display: flex;
   margin-right: 76px;
-  display: inline-block;
 }
 
 .studio {
@@ -398,4 +420,48 @@ a {
 
 .footer {
   background-color: var(--text-color);
+}
+
+.footer .container {
+  display: flex;
+  margin-right: auto;
+}
+
+.logotip {
+  margin-right: 120px;
+}
+
+.social-items {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.item {
+  display: flex;
+}
+
+.block-icon {
+  display: flex;
+  justify-content: center;
+  padding: 16px 32px;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.icon + .icon {
+  margin-left: 16px;
+  fill: #4d5ae5;
 }
