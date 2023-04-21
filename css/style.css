@@ -562,7 +562,3 @@ a {
   margin: auto;
   fill: var(--color-sec-font);
 }
-
-.team-person > .social-link {
-  padding-top: 32px;
-}
