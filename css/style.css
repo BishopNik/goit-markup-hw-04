@@ -233,8 +233,6 @@ a {
 }
 
 .tech-icon {
-  width: 64px;
-  height: 64px;
   padding: 0;
   margin: auto;
   fill: currentColor;
@@ -425,12 +423,8 @@ a {
 }
 
 .icon-customers {
-  width: 104px;
-  height: 56px;
-  border: none;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--color-white);
   fill: currentColor;
 }
 
@@ -507,7 +501,6 @@ a {
 .social-items {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .social-itens > ul {
@@ -559,17 +552,8 @@ a {
   background-color: var(--color-hover-social);
 }
 
-.icon-social-t {
+.icon-social {
   margin: auto;
-  width: 16px;
-  height: 16px;
-  fill: var(--color-sec-font);
-}
-
-.icon-social-f {
-  margin: auto;
-  width: 24px;
-  height: 24px;
   fill: var(--color-sec-font);
 }
 
