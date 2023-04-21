@@ -523,8 +523,15 @@ a {
 .social-link {
   display: flex;
   justify-content: center;
-  gap: 16px;
   padding: 0;
+}
+
+.team-person > .social-link {
+  gap: 24px;
+}
+
+.social-items > .social-link {
+  gap: 16px;
 }
 
 .icon-list {
@@ -552,5 +559,9 @@ a {
   margin: auto;
   width: 24px;
   height: 24px;
-  fill: var(--color-white);
+  fill: var(--color-sec-font);
+}
+
+.team-person > .social-link {
+  padding: 32px 0;
 }
