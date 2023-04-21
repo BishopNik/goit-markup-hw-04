@@ -503,7 +503,7 @@ a {
   flex-direction: column;
 }
 
-.social-itens > ul {
+.social-items > ul {
   display: flex;
   align-items: baseline;
 }
@@ -515,6 +515,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
