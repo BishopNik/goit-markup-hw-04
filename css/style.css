@@ -395,7 +395,7 @@ a {
 }
 
 .team-person {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .teem-p {
@@ -509,7 +509,7 @@ a {
 }
 
 .social-text {
-  display: block;
+  display: flex;
   color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
