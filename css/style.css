@@ -233,6 +233,8 @@ a {
 }
 
 .tech-icon {
+  width: 64px;
+  height: 64px;
   padding: 0;
   margin: auto;
   fill: currentColor;
@@ -423,6 +425,8 @@ a {
 }
 
 .icon-customers {
+  width: 104px;
+  height: 56px;
   border: none;
   background-repeat: no-repeat;
   background-position: center;
@@ -555,7 +559,14 @@ a {
   background-color: var(--color-hover-social);
 }
 
-.icon-social {
+.icon-social-t {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  fill: var(--color-sec-font);
+}
+
+.icon-social-f {
   margin: auto;
   width: 24px;
   height: 24px;
